@@ -1,0 +1,61 @@
+.container{
+    position:relative;
+
+}
+  
+  body{
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image:url("https://wallup.net/wp-content/uploads/2017/03/27/103695-dancer-women-breakdance-dancing-digital_art.jpg");
+    font-size:1.3em;
+    font-family:'Work Sans',sans-serif;
+  }
+  
+  nav{
+    margin:0 auto;
+    padding:0.1% 0;
+    margin-right:0;
+  }
+  
+  nav>ul{
+    text-align:right;
+  }
+  
+  ul>li{
+    display:inline-block;
+  }
+  
+  ul>li>a{
+    padding:1%;
+    text-decoration:none;
+    color:#000000;
+  }
+  
+  ul>li>a:hover{
+    box-shadow:0 0 0 0.625em rgba(0, 0, 0 , 0.1), insert 0 0 0.625em rgba(255, 255, 255, 0.6);
+    background-color:#48d2ff;
+    color:#ff007f;
+  }
+
+  .dance{
+      text-align: center;
+      font-size: 50px;
+      position: relative;
+      top: 50px;
+  }
+  
+  .btn {
+    border: none;
+    background-color: #48d2ff;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    left: 550px;
+    padding: 10px 10px;
+    color: #ff007f;
+    /*top: 200px;*/
+  }
+
+  .btn:hover {background: #eee;}
+  
